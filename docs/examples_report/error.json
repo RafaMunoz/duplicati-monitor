@@ -1,0 +1,23 @@
+{
+    "Data":
+    {
+        "ApiResultCode": "BadArguments",
+        "Message": "API response: BadArguments",
+        "Data":
+        {},
+        "InnerException": null,
+        "StackTrace": "  at Duplicati.Library.Main.BackendManager.List () [0x00049] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.FilelistProcessor.RemoteListAnalysis (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x0000d] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00000] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x01048] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at CoCoL.ChannelExtensions.WaitForTaskOrThrow (System.Threading.Tasks.Task task) [0x00050] in <9a758ff4db6c48d6b3d4d0e5c2adf6d1>:0 \\n  at Duplicati.Library.Main.Operation.BackupHandler.Run (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00009] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Controller+<>c__DisplayClass14_0.<Backup>b__0 (Duplicati.Library.Main.BackupResults result) [0x0004b] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Controller.RunAction[T] (T result, System.String[]& paths, Duplicati.Library.Utility.IFilter& filter, System.Action`1[T] method) [0x0011c] in <e60bc008dd1b454d861cfacbdd3760b9>:0 ",
+        "HelpLink": null,
+        "Source": "mscorlib",
+        "HResult": -2146233088
+    },
+    "Extra":
+    {
+        "OperationName": "Backup",
+        "backup-name": "Photos"
+    },
+    "LogLines":
+    [
+        "2023-01-26 15:11:40 +00 - [Error-Duplicati.Library.Main.Operation.BackupHandler-FatalError]: Fatal error\\nCG.Web.MegaApiClient.ApiException: API response: BadArguments\\n  at Duplicati.Library.Main.BackendManager.List () [0x00049] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.FilelistProcessor.RemoteListAnalysis (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x0000d] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.FilelistProcessor.VerifyRemoteList (Duplicati.Library.Main.BackendManager backend, Duplicati.Library.Main.Options options, Duplicati.Library.Main.Database.LocalDatabase database, Duplicati.Library.Main.IBackendWriter log, System.Collections.Generic.IEnumerable`1[T] protectedFiles) [0x00000] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.BackupHandler.PreBackupVerify (Duplicati.Library.Main.BackendManager backend, System.String protectedfile) [0x0011d] in <e60bc008dd1b454d861cfacbdd3760b9>:0 \\n  at Duplicati.Library.Main.Operation.BackupHandler.RunAsync (System.String[] sources, Duplicati.Library.Utility.IFilter filter, System.Threading.CancellationToken token) [0x00452] in <e60bc008dd1b454d861cfacbdd3760b9>:0 "
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "Data":
+    {
+        "DeletedFiles": 0,
+        "DeletedFolders": 0,
+        "ModifiedFiles": 0,
+        "ExaminedFiles": 437,
+        "OpenedFiles": 0,
+        "AddedFiles": 0,
+        "SizeOfModifiedFiles": 0,
+        "SizeOfAddedFiles": 0,
+        "SizeOfExaminedFiles": 2025219,
+        "SizeOfOpenedFiles": 0,
+        "NotProcessedFiles": 0,
+        "AddedFolders": 0,
+        "TooLargeFiles": 0,
+        "FilesWithError": 0,
+        "ModifiedFolders": 0,
+        "ModifiedSymlinks": 0,
+        "AddedSymlinks": 0,
+        "DeletedSymlinks": 0,
+        "PartialBackup": false,
+        "Dryrun": false,
+        "MainOperation": "Backup",
+        "CompactResults": null,
+        "VacuumResults": null,
+        "DeleteResults": null,
+        "RepairResults": null,
+        "TestResults":
+        {
+            "MainOperation": "Test",
+            "VerificationsActualLength": 3,
+            "Verifications":
+            [
+                {
+                    "Key": "duplicati-20230126T133654Z.dlist.zip",
+                    "Value":
+                    []
+                },
+                {
+                    "Key": "duplicati-i58a523ad2e6543d0a328962c7ee849d3.dindex.zip",
+                    "Value":
+                    []
+                },
+                {
+                    "Key": "duplicati-b02ba0ea2832b4a53bf32fd3c6b940e90.dblock.zip",
+                    "Value":
+                    []
+                }
+            ],
+            "ParsedResult": "Success",
+            "Version": "2.0.6.3 (2.0.6.3_beta_2021-06-17)",
+            "EndTime": "2023-01-26T15:10:11.371578Z",
+            "BeginTime": "2023-01-26T15:10:11.322139Z",
+            "Duration": "00:00:00.0494390",
+            "MessagesActualLength": 0,
+            "WarningsActualLength": 0,
+            "ErrorsActualLength": 0,
+            "BackendStatistics":
+            {
+                "RemoteCalls": 5,
+                "BytesUploaded": 0,
+                "BytesDownloaded": 49227,
+                "FilesUploaded": 0,
+                "FilesDownloaded": 3,
+                "FilesDeleted": 0,
+                "FoldersCreated": 0,
+                "RetryAttempts": 0,
+                "UnknownFileSize": 0,
+                "UnknownFileCount": 0,
+                "KnownFileCount": 12,
+                "KnownFileSize": 1302062,
+                "LastBackupDate": "2023-01-26T13:36:54+00:00",
+                "BackupListCount": 4,
+                "TotalQuotaSpace": 62671097856,
+                "FreeQuotaSpace": 50205954048,
+                "AssignedQuotaSpace": -1,
+                "ReportedQuotaError": false,
+                "ReportedQuotaWarning": false,
+                "MainOperation": "Backup",
+                "ParsedResult": "Success",
+                "Version": "2.0.6.3 (2.0.6.3_beta_2021-06-17)",
+                "EndTime": "0001-01-01T00:00:00",
+                "BeginTime": "2023-01-26T15:10:05.56527Z",
+                "Duration": "00:00:00",
+                "MessagesActualLength": 0,
+                "WarningsActualLength": 0,
+                "ErrorsActualLength": 0
+            }
+        },
+        "ParsedResult": "Success",
+        "Version": "2.0.6.3 (2.0.6.3_beta_2021-06-17)",
+        "EndTime": "2023-01-26T15:10:11.39367Z",
+        "BeginTime": "2023-01-26T15:10:05.565256Z",
+        "Duration": "00:00:05.8284140",
+        "MessagesActualLength": 11,
+        "WarningsActualLength": 0,
+        "ErrorsActualLength": 0,
+        "BackendStatistics":
+        {
+            "RemoteCalls": 5,
+            "BytesUploaded": 0,
+            "BytesDownloaded": 49227,
+            "FilesUploaded": 0,
+            "FilesDownloaded": 3,
+            "FilesDeleted": 0,
+            "FoldersCreated": 0,
+            "RetryAttempts": 0,
+            "UnknownFileSize": 0,
+            "UnknownFileCount": 0,
+            "KnownFileCount": 12,
+            "KnownFileSize": 1302062,
+            "LastBackupDate": "2023-01-26T13:36:54+00:00",
+            "BackupListCount": 4,
+            "TotalQuotaSpace": 62671097856,
+            "FreeQuotaSpace": 50205954048,
+            "AssignedQuotaSpace": -1,
+            "ReportedQuotaError": false,
+            "ReportedQuotaWarning": false,
+            "MainOperation": "Backup",
+            "ParsedResult": "Success",
+            "Version": "2.0.6.3 (2.0.6.3_beta_2021-06-17)",
+            "EndTime": "0001-01-01T00:00:00",
+            "BeginTime": "2023-01-26T15:10:05.56527Z",
+            "Duration": "00:00:00",
+            "MessagesActualLength": 0,
+            "WarningsActualLength": 0,
+            "ErrorsActualLength": 0
+        }
+    },
+    "Extra":
+    {
+        "OperationName": "Backup",
+        "backup-name": "Photos"
+    },
+    "LogLines":
+    []
+}
